@@ -1,6 +1,6 @@
 # Hover Board - Direction awear hover effect Wordpress Plugin
 
-TODO: Write a project description
+Demo here: http://fmsftw.com/hover-board-demo/
 
 ## Installation
 
