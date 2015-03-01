@@ -1,5 +1,3 @@
-# hover-board-wp-plugin
-
 # Hover Board - Direction awear hover effect Wordpress Plugin
 
 TODO: Write a project description

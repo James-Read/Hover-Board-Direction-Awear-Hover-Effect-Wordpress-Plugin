@@ -4,13 +4,13 @@ $demo_code = '
 <ul class="da-thumbs">
 	<li class="grid">
 		<a href="#">
-			<img class="demo-image-size" src="http://fmsftw.com/wp-content/uploads/2015/02/commercial_free_image_1.jpg" />
+			<img class="demo-image-size" src="http://lorempixel.com/400/200/sports/1" />
 			<div><span>Hello??</span></div>
 		</a>
 	</li>
 	<li class="grid">
 		<a href="#">
-			<img class="demo-image-size" src="http://fmsftw.com/wp-content/uploads/2015/02/commercial_free_image_2.jpg" />
+			<img class="demo-image-size" src="http://lorempixel.com/400/200/sports/2" />
 			<div><span>HELLO!!</span></div>
 		</a>
 	</li>
@@ -18,16 +18,17 @@ $demo_code = '
 
 <li class="grid">
 		<a href="#">
-			<img class="demo-image-size" src="http://fmsftw.com/wp-content/uploads/2015/02/commercial_free_image_3.jpg" />
+			<img class="demo-image-size" src="http://lorempixel.com/400/200/sports/3" />
 			<div><span>HEEELLOOOO</span></div>
 		</a>
 	</li>
 <li class="grid">
 		<a href="#">
-			<img class="demo-image-size" src="http://fmsftw.com/wp-content/uploads/2015/02/commercial_free_image_4.jpg" />
+			<img class="demo-image-size" src="http://lorempixel.com/400/200/sports/4" />
 			<div><span>GOODBYEEE!!</span></div>
 		</a>
 	</li>
+	
 </ul>' ;
 
 $code_output = htmlspecialchars($demo_code);
