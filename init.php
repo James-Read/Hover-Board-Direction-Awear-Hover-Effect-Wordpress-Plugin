@@ -80,7 +80,7 @@ function hover_board_css_js() {
 	$hover_board_container_one = $options['hover_board_inner_class_name'];
 	$hover_board_container_two = $options['hover_board_outer_class_name'];
 	$type_of_container = ".";
-	$hover_board_combined_containers = $type_of_container . $hover_board_container_one . " > " . $hover_board_container_two;
+	$hover_board_combined_containers = $type_of_container . $hover_board_container_one . "> ." . $hover_board_container_two;
 
     //Add the stylesheet into the header
 	wp_enqueue_style("hover-board.css",WP_PLUGIN_URL."/hover-board/css/style.css",false,null);
