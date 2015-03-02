@@ -1,6 +1,6 @@
 .da-thumbs {
 	list-style: none;
-	width: 984px;
+	width: 470px;
 	height: 600px;
 	position: relative;
 	margin: 20px auto;
@@ -40,7 +40,7 @@
 	border-bottom: 1px solid rgba(255,255,255,0.5);
 	box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);
 }
-ul.da-thumbs {
+div.da-thumbs > ul {
 	-moz-column-count: 2; /* For FireFox */
 	-webkit-column-count: 2; /* For Safari/Chrome */
 	column-count: 2; /* For when the standard gets fully supported */
