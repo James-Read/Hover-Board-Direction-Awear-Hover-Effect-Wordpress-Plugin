@@ -37,7 +37,7 @@
 						</div> <!-- /.inside  test-->
 					</div> <!-- /.postbox -->
 
-					<p>Your selected parent class name and child container type:</p>
+					<p>Your selected parent and child class names:</p>
 
 <?php //}
 	$hover_board_container_one = $options['hover_board_inner_class_name'];
@@ -48,7 +48,7 @@
 ?>
 
 
-<p>At present, the classname ".da-thumbs" must be used.</p>
+<p>At present, a containing element with the classname ".da-thumbs" must be used.</p>
 <p>Copy and past the following code example to a file, post or page:</p>
 
 
