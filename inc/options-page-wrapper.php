@@ -15,7 +15,7 @@
 							<table class="form-table">
 								<tr>
 									<td>
-										<label for="hover_board_inner_class_name">Inner class name</label>
+										<label for="hover_board_inner_class_name">Parent container class name</label>
 									</td>
 									<td>
 										<input name="hover_board_inner_class_name" id="hover_board_inner_class_name" type="text" value="<?php echo $hover_board_inner_class_name; ?>" class="regular-text" />
@@ -23,7 +23,7 @@
 								</tr>
 								<tr>
 									<td>
-										<label for="hover_board_outer_class_name">Outer class name</label>
+										<label for="hover_board_outer_class_name">Child container class name</label>
 									</td>
 									<td>
 										<input name="hover_board_outer_class_name" id="hover_board_outer_class_name" type="text" value="<?php echo $hover_board_outer_class_name; ?>" class="regular-text" />
@@ -37,6 +37,8 @@
 						</div> <!-- /.inside  test-->
 					</div> <!-- /.postbox -->
 
+					<p>Your selected parent class name and child container type:</p>
+
 <?php //}
 	$hover_board_container_one = $options['hover_board_inner_class_name'];
 	$hover_board_container_two = $options['hover_board_outer_class_name'];
@@ -44,6 +46,10 @@
 	$hover_board_combined_containers = $type_of_container . $hover_board_container_one . " > " . $hover_board_container_two;
 	echo $hover_board_combined_containers;
 ?>
+
+
+<p>At present, the classname ".da-thumbs" must be used.</p>
+<p>Copy and past the following code example to a file, post or page:</p>
 
 
 
