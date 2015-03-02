@@ -43,7 +43,7 @@
 	$hover_board_container_one = $options['hover_board_inner_class_name'];
 	$hover_board_container_two = $options['hover_board_outer_class_name'];
 	$type_of_container = ".";
-	$hover_board_combined_containers = $type_of_container . $hover_board_container_one . " > " . $hover_board_container_two;
+	$hover_board_combined_containers = $type_of_container . $hover_board_container_one . " > ." . $hover_board_container_two;
 	echo $hover_board_combined_containers;
 ?>
 
