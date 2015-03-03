@@ -37,7 +37,7 @@
 						</div> <!-- /.inside  test-->
 					</div> <!-- /.postbox -->
 
-					<p>Your selected parent and child class names:</p>
+					<p>Your selected parent and child class namesn are:</p>
 
 <?php //}
 	$hover_board_container_one = $options['hover_board_inner_class_name'];
