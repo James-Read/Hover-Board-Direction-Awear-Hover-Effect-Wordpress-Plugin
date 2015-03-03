@@ -83,19 +83,19 @@ function hover_board_css_js() {
 	$hover_board_combined_containers = $type_of_container . $hover_board_container_one . "> ." . $hover_board_container_two;
 
     //Add the stylesheet into the header
-	wp_enqueue_style("hover-board.css",WP_PLUGIN_URL."/Hover-Board-Direction-Awear-Hover-Effect-Wordpress-Plugin/css/style.css",false,null);
-	wp_enqueue_style("hover-board.css",WP_PLUGIN_URL."/Hover-Board-Direction-Awear-Hover-Effect-Wordpress-Plugin/css/noJS.css",false,null);
+	wp_enqueue_style("hover-board.css",WP_PLUGIN_URL."/Hover-Board-Direction-Awear-Hover-Effect-Wordpress-Plugin-master/css/style.css",false,null);
+	wp_enqueue_style("hover-board.css",WP_PLUGIN_URL."/Hover-Board-Direction-Awear-Hover-Effect-Wordpress-Plugin-master/css/noJS.css",false,null);
 
 	//Add the scripts in the footer
 	wp_enqueue_script("jquery");
 	wp_enqueue_script(
-		"hover-board", WP_PLUGIN_URL."/Hover-Board-Direction-Awear-Hover-Effect-Wordpress-Plugin/js/jquery.hoverdir.js",
+		"hover-board", WP_PLUGIN_URL."/Hover-Board-Direction-Awear-Hover-Effect-Wordpress-Plugin-master/js/jquery.hoverdir.js",
 		array("jquery"), "1",1);
 	wp_enqueue_script(
-		"hover-board-modernizr", WP_PLUGIN_URL."/Hover-Board-Direction-Awear-Hover-Effect-Wordpress-Plugin/js/modernizr.custom.97074.js",
+		"hover-board-modernizr", WP_PLUGIN_URL."/Hover-Board-Direction-Awear-Hover-Effect-Wordpress-Plugin-master/js/modernizr.custom.97074.js",
 		array("jquery"), "",1);
 	wp_enqueue_script(
-		"hover-board-single", WP_PLUGIN_URL."/Hover-Board-Direction-Awear-Hover-Effect-Wordpress-Plugin/js/hover-board.js",
+		"hover-board-single", WP_PLUGIN_URL."/Hover-Board-Direction-Awear-Hover-Effect-Wordpress-Plugin-master/js/hover-board.js",
 		array("jquery"), "",1);
 
 wp_localize_script('hover-board-single', 'script_vars', array(
