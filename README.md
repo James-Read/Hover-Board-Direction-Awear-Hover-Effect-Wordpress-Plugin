@@ -10,13 +10,13 @@ Installation process
 
 ## Usage
 
-•	Activate Hover-Board plugin
+<h2>Hover Board Demo</h2>
 
-•	Under Settings -> HoverBoard : enter class names of containers:
-
-•	da.thumbs and li (needs addressing ; updates DB, then comes back and sends to jquery fine, but not sure if there is a real need for this...)
-
-•	Create a page / post and enter the sample code and modify to hearts content!
+. Download the plugin HERE
+. Upload the plugin to your WordPress installation
+. At your WordPress dashboard, under settings, select Hover Board
+. Enter your chosen outer and inner class names and click SAVE
+. Copy the generated sample code to a post or page, modify and enjoy!
 
 ## Contributing
 
