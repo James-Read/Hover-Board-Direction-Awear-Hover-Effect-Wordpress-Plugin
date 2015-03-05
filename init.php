@@ -2,8 +2,8 @@
 
 /*
 Plugin Name: HoverBoard
-Plugin URI: http://www.jamesreadwebtech.com/resources/hover-board //coming soon!
-Description: The best hover board since back to the future
+Plugin URI: http://fmsftw.com/hover-board-demo/
+Description: Direction hover effect
 Version: 1.0
 Author: James Read
 Author URI: http://www.fmsftw.com/
