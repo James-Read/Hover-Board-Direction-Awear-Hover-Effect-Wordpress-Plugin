@@ -8,12 +8,12 @@ License: GPLv2 or later
 License URI: http://fmsftw.com/hover-board-demo/
 
 
-Provides a direction aware hover effect and custom code generator. 
+Provides a direction aware hover effect and custom code generator.
 
 
 == Description ==
 
-I just wanted to make a plugin and thought this was a nice effect! 
+I just wanted to make a plugin and thought this was a nice effect!
 
 == Installation ==
 
