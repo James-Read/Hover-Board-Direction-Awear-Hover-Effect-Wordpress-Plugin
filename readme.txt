@@ -1,5 +1,6 @@
 === Hover board direction aware hover effect ===
-Contributors: James Read
+Contributors: James-Read
+Donate link: http://fmsftw.com
 Tags: hover effect
 Requires at least: 3.0.1
 Tested up to: 4.1
@@ -37,13 +38,15 @@ There are a few options for installing and setting up this plugin.
 3.	Enter your chosen outer and inner class names and click SAVE
 4.	Copy the generated sample code to a post or page, modify and enjoy!
 
+== Frequently Asked Questions ==
+
+How do I set this up?
+A: See Installation section! Or http://fmsftw.com/hover-board-demo/
+
 == Screenshots ==
 
-1. Once you have installed the plugin, navigate to Settings > Hover Board in the admin area
+1. Here is a demo of the plugin in action!
 
-1.	At your WordPress dashboard, under settings, select Hover Board
-2.	Enter your chosen outer and inner class names and click SAVE
-3.	Copy the generated sample code to a post or page, modify and enjoy!
 
 == Changelog ==
 
